@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    George the Writer
+    Freelance Job
+    April 24,2019
+    Designed by Carlos Sanchez-->
+
+<body class="George's Website">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Marck+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>George "the Writer"</title>
+    </head>
+    <main id="main_content" role="main">
+        <!---Menu -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact Me</a>
+        </div>
+        <!-- Use any element to open the sidenav -->
+        <div id="menu">
+            <span tabIndex="0" onclick="openNav()">&#9776</span>
+        </div>
+        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+        <!--Contact information-->
+        <div id="welcome-section" class="jumbotron">
+            <div class="container">
+                <div class="header">
+                    <h1 class="display-1">George <span id="half_header">The Writer</span></h1>
+                    <h2>My First Book</h2>
+                </div>
+            </div>
+        </div>
+        <!--button to the top-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <span class="fa-stack fa-lg"><i class="fa fa-arrow-circle-up  fa-stack-2x"></i></span>
+        </button>
+        <!--Summary-->
+        <div class="summary">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="about_Me">
+                        <div class="header">
+                            <h2>About Me</h2>
+                        </div>
+                        <p>
+                            I am currently pursuing a FreeCodeCamp Responsive Web design Certificate. Working as freelancer who is highly motivated to create well-design and effective websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-7 ">
+                    <img class="img-responsive" src="images/writer.jpg">
+                </div>
+            </div>
+        </div>
+        <!---Header Section (Portfolio)--->
+        <div id="Portfolio_Title" class="jumbotron ">
+            <div class="header ">
+                <h1 class="display-1"><span id="half_header">Port</span>folio</h1>
+            </div>
+        </div>
+        <!--Personal work and FreeCodeCamps-->
+        <div class="Portfolio">
+            <div id="Projects" class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <!--Projects-->
+                        <div class="card">
+                            <img class="card-img-top" src="images/eagleelectric.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Business Website</h4>
+                                <p class="card-text">This web site was build and launch to create a web presence for a electrical company.</p>
+                                <p class="projectLink"> <a href=#>View Project > </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/tributepage.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Tribute Page FreeCodeCamp</h4>
+                                <p class="card-text">FreeCodeCamp Project created to practice basic CSS &amp HTML syntax.</p>
+                                <p class="projectLink"> <a href=#>View Project > </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card">
+                            <img class="card-img-top" src="images/PersonalPortfolio.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Personal Resume Website</h4>
+                                <p class="card-text">Personal website using boostrap, HTML, CSS &amp JavaScript.</p>
+                                <p class="projectLink"> <a href=#>View Project > </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----Endofrow---->
+            </div>
+            <div id="Projects" class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <!--Projects-->
+                        <div class="card">
+                            <img class="card-img-top" src="images/eagleelectric.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Business Website</h4>
+                                <p class="card-text">This web site was build and launch to create a web presence for a electrical company.</p>
+                                <p class="projectLink"> <a href=#>View Project > </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/tributepage.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Tribute Page FreeCodeCamp</h4>
+                                <p class="card-text">FreeCodeCamp Project created to practice basic CSS &amp HTML syntax.</p>
+                                <p class="projectLink"> <a href=#>View Project > </a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card">
+                            <img class="card-img-top" src="images/PersonalPortfolio.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Personal Resume Website</h4>
+                                <p class="card-text">Personal website using boostrap, HTML, CSS &amp JavaScript.</p>
+                                <p class="projectLink"> <a href=#>View Project > </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----Endofrow---->
+            </div>
+        </div>
+        <!---Header Section (Contact Me)-->
+        <div class="jumbotron ">
+            <div class="header ">
+                <h1 class="display-1">Contact<span id="half_header"> Me</span></h1>
+            </div>
+        </div>
+        <div class="ContactMe">
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="email">Your Name:</label>
+                        <input type="email" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Your Email Address:</label>
+                        <input type="password" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send me a message</button>
+                </form>
+            </div>
+        </div>
+        <!-- endofContactmeform -->
+    </main>
+    <!--EndofWholePage-->
+    <footer class="contactme background_footer">
+        <div class="container">
+            <p>Designed By <span>Carlos Sanchez</span></p>
+        </div>
+    </footer>
+</body>
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("wholepage").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("wholepage").style.marginLeft = "0";
+}
+
+//Typewriter Effect
+
+var i = 0;
+var txt = 'Personal Profile!'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+</script>
+
+</html>
